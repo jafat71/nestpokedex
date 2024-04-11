@@ -12,8 +12,11 @@ import { Pokemon, PokemonSchema } from './entities/pokemon.entity';
       {
         name: Pokemon.name, //extend del documento
         schema: PokemonSchema 
-      }
+      },
     ])
+  ],
+  exports: [
+    PokemonService
   ]
 })
 export class PokemonModule {}
