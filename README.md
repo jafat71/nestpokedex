@@ -18,11 +18,18 @@
 ```
   docker-compose up -d
 ```
-5. Reconstruir BD con semilla
+
+5. Clonar .env y rellenar campos
+
+6. Ejecutar
+```
+  npm run start:dev
+```
+
+7. Reconstruir BD con semilla
 ```
 localhost:3000/api/v2/seed
 ```  
-
 
 ##STACK
 + MongoDB
